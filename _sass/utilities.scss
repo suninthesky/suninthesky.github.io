@@ -1,0 +1,199 @@
+@import "variables";
+
+// autoflow
+// =============================================================================
+
+.autoflow > * + *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.autoflow img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.autoflow ul li {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+.autoflow ol li {
+  list-style: decimal;
+  margin-left: 1.5rem;
+}
+
+.autoflow blockquote {
+  border-left: 4px solid var(--neutral-50);
+  padding-left: 0.7rem;
+}
+
+// background color
+// =============================================================================
+
+.hover\:bg-neutral-50\/5:hover {
+  background: rgba(250, 250, 250, 0.05);
+}
+
+.bg-brand-300 {
+  background: var(--brand-300);
+}
+
+.bg-brand-800 {
+  background: var(--brand-800);
+}
+
+// border
+// =============================================================================
+
+.border {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.border-t {
+  border-top-width: 1px;
+  border-style: solid;
+}
+
+.border-brand-300 {
+  border-color: var(--brand-300);
+}
+
+@media screen and (max-width: 641px) {
+  .border {
+    border-width: 1px;
+    border-style: solid;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+  }
+
+  .rounded-b-lg {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+// border radius
+// =============================================================================
+
+.rounded-b-lg {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+// display
+// =============================================================================
+
+.inline {
+  display: inline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+// font size
+// =============================================================================
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-lg,
+.autoflow h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl,
+.autoflow h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl,
+.autoflow h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+// font style
+// =============================================================================
+
+.italic,
+.autoflow em {
+  font-style: italic;
+}
+
+// font weight
+// =============================================================================
+
+.font-bold,
+.autoflow strong {
+  font-weight: 700;
+}
+
+// margins
+// =============================================================================
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+// opacity
+// =============================================================================
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+// padding
+// =============================================================================
+
+.p-4 {
+  padding: 1rem;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+// text color
+// =============================================================================
+
+.text-neutral-50 {
+  color: var(--neutral-50);
+}
+
+.text-orange-300,
+.autoflow a {
+  color: var(--orange-300);
+}
+
+// text decoration
+// =============================================================================
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.hover\:no-underline:hover,
+.autoflow a:hover {
+  text-decoration-line: none;
+}
+
+// vertical alignment
+// =============================================================================
+
+.align-top {
+  vertical-align: top;
+}
