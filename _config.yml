@@ -19,16 +19,27 @@
 # in the templates via {{ site.myvariable }}.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://suninthesky.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+lang: en_GB
+
 github_url: https://github.com/suninthesky
 linkedin_url: https://uk.linkedin.com/in/surajvadgama
 
-paginate: 3
+paginate: 15
 paginate_path: "/page:num/"
 
 # Build settings
 plugins:
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: "assets/**/*"
+    values:
+      sitemap: false
+
 sass:
   style: compressed
 # Exclude from processing.
