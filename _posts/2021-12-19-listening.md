@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Listening without interrupting, correcting..."
-date: 2019-11-26
+title: Listening without interrupting, correcting...
 tags: quotes leadership
 ---
 

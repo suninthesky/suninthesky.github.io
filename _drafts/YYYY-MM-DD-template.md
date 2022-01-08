@@ -1,6 +1,5 @@
 ---
 layout: post
-title: "Title"
-date: YYYY-MM-DD
+title: Title
 tags: tag1
 ---

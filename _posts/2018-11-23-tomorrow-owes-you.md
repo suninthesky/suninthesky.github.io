@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Tomorrow owes you the sum of your yesterdays..."
-date: 2018-11-23
 tags: quotes leadership
 ---
 

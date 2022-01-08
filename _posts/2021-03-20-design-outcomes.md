@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Design is about influencing outcomes"
-date: 2021-03-20
+title: Design is about influencing outcomes
 tags: design
 ---
 

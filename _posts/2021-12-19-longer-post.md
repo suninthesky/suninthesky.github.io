@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Longer post"
-date: 2021-12-19
+title: Longer post
 ---
 
 # A longer post
