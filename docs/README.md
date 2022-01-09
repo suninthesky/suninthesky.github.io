@@ -1,20 +1,9 @@
 # suninthesky.github.io
 
-Build the site in the `source` branch...
+Files in the `docs` folder will be deployed. Run the following command to update them...
 
 ```
-git checkout source
-[make changes...]
-JEKYLL_ENV=production bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build -d docs
 ```
-
-Then copy the files into the `build` branch...
-
-```
-git checkout build
-cp -r _site/* . && rm -rf _site/
-```
-
-...and commit then push.
 
 > Note: This approach is taken to use custom plugins, which are not currently supported by GitHub Pages.

@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://suninthesky.github.io/2015/09/03/be-kind.html</loc>
+<lastmod>2015-09-03T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>https://suninthesky.github.io/2015/09/25/responsibility.html</loc>
+<lastmod>2015-09-25T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>https://suninthesky.github.io/2018/11/23/tomorrow-owes-you.html</loc>
 <lastmod>2018-11-23T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://suninthesky.github.io/2019/11/26/listening.html</loc>
 <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://suninthesky.github.io/2020/09/29/beehive.html</loc>
+<lastmod>2020-09-29T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>https://suninthesky.github.io/2021/03/20/design-outcomes.html</loc>
@@ -20,6 +32,9 @@
 </url>
 <url>
 <loc>https://suninthesky.github.io/tags/leadership/</loc>
+</url>
+<url>
+<loc>https://suninthesky.github.io/tags/projects/</loc>
 </url>
 <url>
 <loc>https://suninthesky.github.io/tags/design/</loc>

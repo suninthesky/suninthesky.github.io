@@ -45,3 +45,14 @@
   display: flex;
   justify-content: space-between;
 }
+
+.thumbnail {
+  margin-left: 1rem;
+  width: 150px;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 641px) {
+  .thumbnail {
+    width: 120px;
+  }
+}

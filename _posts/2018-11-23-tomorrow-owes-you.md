@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tomorrow owes you the sum of your yesterdays..."
+title: Tomorrow owes you the sum of your yesterdays...
 tags: quotes leadership
 ---
 

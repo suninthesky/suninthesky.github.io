@@ -92,8 +92,18 @@
   display: inline-block;
 }
 
-// font size
+// flexbox
 // =============================================================================
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+// font size
 
 .text-sm {
   font-size: 0.875rem;
