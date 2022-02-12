@@ -17,4 +17,4 @@ It's a verb, something you do, rather than a job title.
 
 It's understanding that many decisions you make are design decisions.
 
-Design is not making something look pretty - that's content creation, graphic work or art - true design is about bringing people together around a shared approach and principles to improve a situation.
+Design is not making something look pretty - that's content creation, graphic work or art - true design is about bringing people together around certain shared principles to improve a situation.
