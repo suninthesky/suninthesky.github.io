@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Levels of understanding and tacit knowledge
-tags: quotes
+tags: leadership
 pretty_title: Levels of understanding and tacit knowledge (read more...)
 ---
 
